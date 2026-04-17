@@ -9,8 +9,10 @@ const client = new Client({
     ]
 });
 
+// 🔐 TOKEN seguro (vem do Railway)
+const TOKEN = process.env.TOKEN;
+
 // CONFIG
-const TOKEN = "OTk4NTg5MDE3ODA3NDA1MDk2.GOP8BY.3reIAQucb2uh1CCSmEBjdJJx_WKeDUqg0SjyZA";
 const GUILD_ID = "1236818895092977694";
 const CHANNEL_ID = "1494794256181886976";
 
